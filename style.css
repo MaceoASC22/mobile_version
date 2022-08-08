@@ -1,0 +1,107 @@
+body {
+    font-family: cursive;
+    margin: 0px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 1000% 100%;
+	animation: gradient 15s ease infinite;
+}
+
+button {
+    width: 300px;
+    border: none;
+    color: white;
+    background: linear-gradient(-45deg, #c252ee, #3c5ee7, #23d5c0, #23d538);
+    background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+    padding: 15px 32px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main {
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.nav {
+    /* background-image: linear-gradient(blue,orange); */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    
+}
+
+.big {
+    display:flex;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+#jazz {
+    margin-top: 50px;
+}
+
+.bottom {
+    display:flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+    /* hi */
+}
+
+#s {
+    width: 300px;
+}
+
+ul {
+    margin-top: 100px;
+}
+
+ul#bottom-stuff {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul#bottom-stuff li {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: gray;
+    color: white;
+}
+
+#d:hover {
+    color:red;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
